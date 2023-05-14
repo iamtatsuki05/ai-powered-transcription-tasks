@@ -15,6 +15,9 @@ jupyterlab = "^3.3.4"
 tqdm = "^4.64.0"
 jupyterlab-tabnine = "^0.0.24"
 scikit-learn = "^1.1.1"
+openai = "^0.27.6"
+langchain = "^0.0.168"
+tiktoken = "^0.4.0"
 
 
 [tool.poetry.dev-dependencies]
