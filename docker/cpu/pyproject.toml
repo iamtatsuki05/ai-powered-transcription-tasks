@@ -18,6 +18,7 @@ scikit-learn = "^1.1.1"
 openai = "^0.27.6"
 langchain = "^0.0.168"
 tiktoken = "^0.4.0"
+urllib3 = "1.26.15"
 
 
 [tool.poetry.dev-dependencies]
