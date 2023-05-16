@@ -19,3 +19,4 @@ RUN pip install poetry && \
   poetry config virtualenvs.create false
 COPY poetry.lock pyproject.toml ./
 RUN poetry install
+RUN pip install streamlit

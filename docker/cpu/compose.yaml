@@ -12,12 +12,9 @@ services:
     working_dir: /main
     ports:
       - "8888:8888"
+      - "8501:8501"
     command:
-      jupyter lab
-        --ip=0.0.0.0
-        --allow-root
-        --NotebookApp.token=''
-        --port=8888
+      streamlit run main.py
     environment:
         PYTHONPATH: "/main/src"
         PYTHONUNBUFFERED: 1
